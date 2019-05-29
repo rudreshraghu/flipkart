@@ -1,0 +1,48 @@
+.container-fluid{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+  }
+  .row{
+      display: flex;
+  }
+  .col-3{
+    max-width: 25%;
+  }
+  .center{
+    display: flex;
+    margin: auto;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    padding: 10px;
+    transition: 0.3s;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    height: auto;
+    text-align: center;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .text{ 
+    overflow: hidden; 
+    white-space: normal; 
+    height: 2.4em;  
+    text-overflow: -o-ellipsis-lastline; 
+    text-align: left;
+} 
+/* .text::after {
+    content: "...";
+    position: absolute;
+    right: 22px;
+    bottom: 20px;
+  } */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
